@@ -1,0 +1,364 @@
+/** Width between 1200x to 0
+ *  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ */
+
+ @media (min-width: 1200px) {
+
+}
+
+/** Width between 992px to 1199px
+ *  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  
+}
+
+/** Width between 768px to 991px
+ *  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ */
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Navbar */
+  nav {
+    padding: 10px 15px;
+  }
+  .nav-menu {
+    margin-top: 40px;
+    display: none;
+    float: none;
+    width: 100%;
+  }
+  .nav-menu li {
+    float: none;
+    width: 100%;
+    text-align: center;
+    border-top: 1px solid #f7f7f7;
+    line-height: 45px;
+    margin-left: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .responsive {
+    float: right;
+    padding-top: 15px;
+    display: block;
+  }
+  /* About */
+  
+
+  /* Contact */
+  .contact-contact {
+    margin-bottom: 30px;
+  }
+  /* Footer */
+  #footer .socials-media ul li {
+    margin-right: 0;
+    margin-left: 0;
+    float: none;
+    display: inline-block;
+  }
+}
+
+/** Width between 767px to 0
+ *  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ */
+
+@media (max-width: 767px) {
+  /* Navbar */
+  nav {
+    padding: 20px 15px;
+  }
+  .nav-menu {
+    margin-top: 40px;
+    display: none;
+    float: none;
+    width: 100%;
+  }
+  .nav-menu li {
+    float: none;
+    width: 100%;
+    text-align: center;
+    border-top: 1px solid #f7f7f7;
+    line-height: 45px;
+    margin-left: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .responsive {
+    float: right;
+    padding-top: 15px;
+    display: block;
+  }
+  /* About */
+  
+
+  /* Contact */
+  .contact-contact {
+    margin-bottom: 30px;
+  }
+  /* Footer */
+  #footer .socials-media ul li {
+    margin-right: 0;
+    margin-left: 0;
+    float: none;
+    display: inline-block;
+  }
+}
+
+/** Width between 600px to 0
+ *  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ */
+
+@media (max-width: 600px) {
+  /* Navbar */
+  nav {
+    padding: 20px 15px;
+  }
+  .nav-menu {
+    margin-top: 40px;
+    display: none;
+    float: none;
+    width: 100%;
+  }
+  .nav-menu li {
+    float: none;
+    width: 100%;
+    text-align: center;
+    border-top: 1px solid #f7f7f7;
+    line-height: 45px;
+    margin-left: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .responsive {
+    float: right;
+    padding-top: 15px;
+    display: block;
+  }
+  /* About */
+  
+  
+  /* Contact */
+  .contact-contact {
+    margin-bottom: 30px;
+  }
+  /* Footer */
+  #footer .socials-media ul li {
+    margin-right: 0;
+    margin-left: 0;
+    float: none;
+    display: inline-block;
+  }
+}
+
+/** Width between 480px to 0
+ *  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ */
+
+@media (max-width: 480px) {
+
+  /* Navbar */
+
+  /* Header */
+  .novatiaLogo-header {
+    width: 80%
+  }
+
+  /* About */
+
+  .abt-heading {
+    text-align: center;
+    font-size: 3rem;
+    line-height: 2rem;
+    margin-top: 2rem;
+    color: black;
+    font-family: 'Oswald', sans-serif;
+}
+  .abt-heading2 {
+    text-align: center;
+    font-size: 2rem;
+    line-height: 2rem;
+    margin-top: 2rem;
+    color: black;
+    font-family: 'Oswald', sans-serif;
+  }
+  .abt-text {
+    text-align: center;
+    color: #333333;
+    margin: 0;
+}
+  .abt-text-content {
+    font-size: 14px;
+    line-height: 1rem;
+    color: #333;
+    margin: 0 auto;
+    color: #333333;
+    font-family: "Montserrat", sans-serif;
+    line-height: 1.75rem;
+    font-size: 1.2rem;
+    width: 85%;
+    padding: 0;
+    margin-bottom: 1rem;    
+}
+  
+  /* timeline */
+
+  .timeline_temp{
+    /* opacity:0.8; */
+    /* background-color:#ccc; */
+    /* position:fixed; */
+    height: 100%;
+    font-size: 20px;
+    font-weight: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;   
+  }
+  .timeline-bg1 {
+    background-color: black;
+    font-size: 20px;
+    /* width: 100vw;  */
+    /* height: 50rem; */
+  }
+
+  .reg-heading-left {
+    color: yellow;
+    font-size: 28px;
+    font-family: 'Oswald', sans-serif;
+    padding-left:0;
+    /* padding-left: 8rem; */
+    text-align: center;
+    padding-top: 2rem;
+  }
+  
+  .reg-heading-right {
+    color: black;
+    font-size: 28px;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    /* padding-left: 8rem; */
+    padding-top: 2rem;
+  }
+  
+  .reg-text-left {
+    text-align: center;
+    font-size: 18px;
+    padding-left: 0;
+    padding-bottom: 0;
+    letter-spacing: 0;
+    /* padding-left: 8rem; */
+    color: white;
+  }
+  
+  .reg-text-right {
+    text-align: center;
+    font-size: 18px;
+    padding-right: 0;
+    padding-bottom: 0;
+    letter-spacing: 0;
+    /* padding-left: 8rem; */
+    color: black;
+  }
+  
+  .reg-image {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .timeline-bg2 {
+    background-color: gold;
+    /* height: 37rem; */
+  }
+  .mentorship-image {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .timeline-bg3 {
+    background-color: black;
+    /* height: 37rem; */
+  }
+
+  .timeline-bg4 {
+    background-color: gold;
+    /* height: 40rem; */
+  }
+
+  /* Speaker */
+  .speaker-heading {
+    text-align: center;
+    font-size: 2.5rem;
+    line-height: 2rem;
+    margin-top: 2rem;
+    color: black;
+    font-family: "Oswald", sans-serif;
+  }
+  .speaker_text {
+    margin-bottom: 2rem;
+  }
+
+  /* Contact */
+  
+
+
+  /* Footer */
+  #footer .socials-media ul li {
+    margin-right: 0px;
+    margin-left: 0px;
+    float: none;
+    display: inline-block;
+  }
+}
+
+/** Width between 320px to 0
+ *  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ */
+
+@media (max-width: 320px) {
+  /* Navbar */
+  nav {
+    padding: 20px 15px;
+  }
+  .nav-menu {
+    margin-top: 40px;
+    display: none;
+    float: none;
+    width: 100%;
+  }
+  .nav-menu li {
+    float: none;
+    width: 100%;
+    text-align: center;
+    border-top: 1px solid #f7f7f7;
+    line-height: 45px;
+    margin-left: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .responsive {
+    float: right;
+    padding-top: 15px;
+    display: block;
+  }
+  /* About */
+
+  
+  /* Contact */
+  .contact-contact {
+    margin-bottom: 30px;
+  }
+  /* Footer */
+  #footer .socials-media ul li {
+    margin-right: 0;
+    margin-left: 0;
+    float: none;
+    display: inline-block;
+  }
+  /* Single page */
+  .entry-comments-body span {
+    display: inline-block;
+    margin-right: 0;
+  }
+}

@@ -1,0 +1,574 @@
+
+/*  General Styling
+/*-----------------------------------------------------------------------------------*/
+
+body {
+  background: #ffffff;
+  color: #898989;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 20px;
+  letter-spacing: 0.02em;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0px;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+h2 {
+  color: #292929;
+  font-weight: 600;
+}
+
+h4 {
+  color: #292929;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+a {
+  color: #292929;
+  text-decoration: none !important;
+  -moz-transition: all 0.5s ease-in-out 0s;
+  -ms-transition: all 0.5s ease-in-out 0s;
+  -o-transition: all 0.5s ease-in-out 0s;
+  -webkit-transition: all 0.5s ease-in-out 0s;
+  transition: all 0.5s ease-in-out 0s;
+}
+
+a:hover {
+  -moz-transition: all 0.5s ease-in-out 0s;
+  -ms-transition: all 0.5s ease-in-out 0s;
+  -o-transition: all 0.5s ease-in-out 0s;
+  -webkit-transition: all 0.5s ease-in-out 0s;
+  transition: all 0.5s ease-in-out 0s;
+}
+
+a:hover, a:focus {
+  color: #b8a07e;
+  text-decoration: underline;
+}
+
+nav ul li a {
+  padding: 2px 0 0 0;
+  position: relative;
+  display: block;
+  font-size: 12px;
+  color: #999999;
+  letter-spacing: 0.1em;
+  font-weight: 500;
+  line-height: 14px;
+  text-transform: uppercase;
+  -moz-transition: all 0.5s ease-in-out 0s;
+  -ms-transition: all 0.5s ease-in-out 0s;
+  -o-transition: all 0.5s ease-in-out 0s;
+  -webkit-transition: all 0.5s ease-in-out 0s;
+  transition: all 0.5s ease-in-out 0s;
+}
+
+p {
+  margin: 25px 0;
+  padding: 0;
+  font-size: 15px;
+  color: #999999;
+  line-height: 28px;
+}
+
+::-moz-selection {
+  background: #b8a07e;
+  color: #fff;
+}
+
+::selection {
+  background: #b8a07e;
+  color: #fff;
+}
+
+.padDiv {
+  padding: 30px 20px;
+}
+
+.section-title {
+  margin-bottom: 70px;
+}
+
+.section-title h2 {
+  font-size: 25px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.form-control {
+  background-color: transparent;
+}
+
+.form-control:focus {
+  border: 1px solid gold;
+  outline: 0 none;
+  background-color: transparent;
+}
+
+.paddsection {
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+
+.paddsections {
+  padding-top: 90px;
+  padding-bottom: 90px !important;
+}
+
+.hvr-shutter-in-horizontal::before {
+  background: #333;
+}
+
+.hvr-shutter-in-horizontal:hover {
+  background: #b8a07e;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*  Navbar Top
+/*-----------------------------------------------------------------------------------*/
+
+.bg-dark {
+  background-color: black!important;
+}
+
+.celLogo img {
+  float: left;
+  width: 100px;
+  height: 50px;
+}
+
+.nav-link {
+  letter-spacing: 2px;
+  font-size: 13px;
+}
+
+/*----------------------------------------------------------------------------------*/
+/*  Header
+/*-----------------------------------------------------------------------------------*/
+
+#header {
+  /* background: url("../images/home-bg.jpg") repeat scroll center center / cover; */
+  /* background: url("../images/demo1.jpg") repeat scroll center center / cover; */
+  background: url("/images/demo2.jpg") repeat scroll center center / cover;
+  height: 100vh;
+  width: 100%;
+}
+
+#header .header-content {
+  height: 100vh;
+  text-align: left;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.header-content h1 {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.header-content p {
+  font-size: 13px;
+  letter-spacing: 5px;
+  margin-top: 0;
+  margin-bottom: 30px;
+  text-transform: capitalize;
+  color: #fff;
+  font-weight: 500;
+}
+
+.header-content .list-social li {
+  float: left;
+  margin-right: 20px;
+}
+
+.header-content .list-social li i {
+  color: #fff;
+  font-size: 15px;
+}
+.header-content .reg-btn {
+  width: fit-content;
+}
+.novatiaLogo-header {
+  width: 40%
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*  About-us
+/*-----------------------------------------------------------------------------------*/
+
+.abt-heading {
+    text-align: center;
+    font-size: 5rem;
+    line-height: 4rem;
+    margin-top: 2rem;
+    color: black;
+    font-family: 'Oswald', sans-serif;
+}
+
+.abt-heading2 {
+  text-align: center;
+  font-size: 3rem;
+  line-height: 2.5rem;
+  margin-top: 2rem;
+  color: black;
+  font-family: 'Oswald', sans-serif;
+}
+
+.fade_rule {
+  height: 2px;
+  background-color: white;
+  margin: 0 auto;
+  background-image: linear-gradient(left , white 2%, #FFFF00 50%, white 98%);
+  background-image: -o-linear-gradient(left , white 2%, #FFFF00 50%, white 98%);
+  background-image: -moz-linear-gradient(left , white 2%, #FFFF00 50%, white 98%);
+  background-image: -webkit-linear-gradient(left , white 2%, #FFFF00 50%, white 98%);
+  background-image: -ms-linear-gradient(left , white 2%, #FFFF00 50%, white 98%);
+  background-image: -webkit-gradient( linear, left bottom, right bottom, color-stop(0.02, white), color-stop(0.5, #FFFF00 ), color-stop(0.98, white) );
+}
+
+.abt-text {
+  text-align: center;
+    color: #333333;
+    margin: 0 auto;
+}
+
+.abt-text-content {
+
+  font-size: 18px;
+  font-weight: 500;
+  /* letter-spacing: 1px; */
+  line-height: 1rem;
+  color: #333;
+  margin: 0 auto;
+  color: #333333;
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.75;
+  font-size: 1.2rem;
+  width: 75%;
+  padding: 0 20px 20px 20px;
+}
+
+.quote {
+  font-family: 'Courgette', cursive;
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-bottom: 2px;
+    text-align: center;
+    padding-bottom: 30px;
+    color: #333;
+}
+
+/* Timeline Section
+--------------------------------*/
+.abt-section  {
+  
+  padding: 100px 0px;
+  
+}
+
+
+.timeline_temp{
+  /* opacity:0.8; */
+  /* background-color:#ccc; */
+  /* position:fixed; */
+  height: 100vh;
+  font-size: 40px;
+  font-weight: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width:100%;
+   
+}
+
+.row_temp {
+  padding: 20px 0px;
+  
+}
+
+.timeline-bg1 {
+  background-color: black;
+  /* height: 25rem;  creating text overflow */
+  word-break: break-word;
+}
+.reg-heading-left {
+  color: yellow;
+  font-size: 40px;
+  font-family: 'Oswald', sans-serif;
+  padding-left:15px;
+  /* padding-left: 8rem; */
+  padding-top: 4rem;
+}
+
+.reg-heading-right {
+  color: black;
+  font-size: 40px;
+  font-family: 'Oswald', sans-serif;
+  /* padding-left: 8rem; */
+  padding-top: 4rem;
+}
+
+.reg-text-left {
+  text-align: left;
+  font-size: 22px;
+  padding-left: 15px;
+  padding-bottom: 10px;
+  letter-spacing: 2px;
+  /* padding-left: 8rem; */
+  color: white;
+}
+
+.reg-text-right {
+  text-align: left;
+  font-size: 22px;
+  padding-right: 15px;
+  padding-bottom: 10px;
+  letter-spacing: 2px;
+  /* padding-left: 8rem; */
+  color: black;
+}
+
+.reg-image {
+  padding-top: 4rem;
+}
+/* Second div */
+.timeline-bg2 {
+  background-color: gold;
+}
+.mentorship-image {
+  padding-top: 4rem;
+}
+/* Third div */
+.timeline-bg3 {
+  background-color: black;
+  /* height: 25rem; */
+}
+/* Fourth div */
+.timeline-bg4 {
+  background-color: gold;
+  /* height: 25rem; */
+}
+
+
+/*-----------------------------------------------------------------------------------*/
+/*  Speakers
+/*-----------------------------------------------------------------------------------*/
+
+.speaker-heading {
+  text-align: center;
+  font-size: 3.5rem;
+  line-height: 3rem;
+  margin-top: 2rem;
+  color: black;
+  font-family: "Oswald", sans-serif;
+}
+.fade_rule_speaker {
+  height: 2px;
+  width: 50%;
+  background-color: white;
+  margin: 0 auto;
+  background-image: linear-gradient(left , white 2%, #FFFF00 50%, white 98%);
+  background-image: -o-linear-gradient(left , white 2%, #FFFF00 50%, white 98%);
+  background-image: -moz-linear-gradient(left , white 2%, #FFFF00 50%, white 98%);
+  background-image: -webkit-linear-gradient(left , white 2%, #FFFF00 50%, white 98%);
+  background-image: -ms-linear-gradient(left , white 2%, #FFFF00 50%, white 98%);
+  background-image: -webkit-gradient( linear, left bottom, right bottom, color-stop(0.02, white), color-stop(0.5, #FFFF00 ), color-stop(0.98, white) );
+}
+.speaker_image {
+  height: 10rem;
+  width: 10rem;
+  border-radius: 50%;
+  border: 4px solid gold;
+}
+.speaker_name {
+  color: gold;
+  font-weight: 500;
+  font-size: 1.2em;
+}
+.speaker_text {
+  margin-bottom: 2rem;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*  Mentors
+/*-----------------------------------------------------------------------------------*/
+.mentor-div {
+  background-color: black;
+}
+.mentor-heading {
+  text-align: center;
+  font-size: 3.5rem;
+  line-height: 3rem;
+  margin-top: 2rem;
+  color: white;
+  font-family: "Oswald", sans-serif;
+}
+.fade_rule_mentor {
+  height: 2px;
+  width: 50%;
+  background-color: black;
+  margin: 0 auto;
+  background-image: linear-gradient(left , black 2%, #FFFF00 50%, black 98%);
+  background-image: -o-linear-gradient(left , black 2%, #FFFF00 50%, black 98%);
+  background-image: -moz-linear-gradient(left , black 2%, #FFFF00 50%, black 98%);
+  background-image: -webkit-linear-gradient(left , black 2%, #FFFF00 50%, black 98%);
+  background-image: -ms-linear-gradient(left , black 2%, #FFFF00 50%, black 98%);
+  background-image: -webkit-gradient( linear, left bottom, right bottom, color-stop(0.02, black), color-stop(0.5, #FFFF00 ), color-stop(0.98, black) );
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*  Investors
+/*-----------------------------------------------------------------------------------*/
+.investor_image {
+  height: 10rem;
+  width: 10rem;
+  border: 4px solid gold;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*  Partners
+/*-----------------------------------------------------------------------------------*/
+.partner_image {
+  height: 10rem;
+  width: 10rem;
+  border: 4px solid gold;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*  Contact
+/*-----------------------------------------------------------------------------------*/
+.contact-div {
+  background-color: black;
+}
+.contact-heading {
+  text-align: center;
+  font-size: 3.5rem;
+  line-height: 3rem;
+  margin-top: 2rem;
+  color: white;
+  font-family: "Oswald", sans-serif;
+}
+.contact-text {
+  color: white;
+}
+.contact-info {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.contact-info i {
+  font-size: 48px;
+  /* display: inline-block; */
+  margin-bottom: 10px;
+  color:black;
+}
+
+.contact-info address,
+.contact-info p {
+  margin-bottom: 0;
+  color: #000;
+}
+
+.contact-info h3 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #999;
+}
+
+.contact-info a {
+  color: #000;
+}
+
+.contact-info a:hover {
+  color: gold;
+}
+
+.contact-address,
+.contact-phone,
+.contact-email {
+  margin-bottom: 20px;
+}
+
+
+/*-----------------------------------------------------------------------------------*/
+/*  Footer
+/*-----------------------------------------------------------------------------------*/
+
+#footer {
+  background: #f7f7f7;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#footer .socials-media {
+  width: 100%;
+}
+
+#footer .socials-media ul {
+  display: inline-block;
+  float: none;
+  margin: 0 0 20px 0;
+}
+
+#footer .socials-media ul li {
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#footer .socials-media ul li a {
+  font-size: 24px;
+  color: #999;
+  letter-spacing: 0.1em;
+  font-weight: 500;
+  background: transparent;
+  text-transform: uppercase;
+  -moz-transition: all 0.5s ease-in-out 0s;
+  -ms-transition: all 0.5s ease-in-out 0s;
+  -o-transition: all 0.5s ease-in-out 0s;
+  -webkit-transition: all 0.5s ease-in-out 0s;
+  transition: all 0.5s ease-in-out 0s;
+}
+
+#footer .socials-media ul li a:hover {
+  color: #b8a07e;
+  -moz-transition: all 0.5s ease-in-out 0s;
+  -ms-transition: all 0.5s ease-in-out 0s;
+  -o-transition: all 0.5s ease-in-out 0s;
+  -webkit-transition: all 0.5s ease-in-out 0s;
+  transition: all 0.5s ease-in-out 0s;
+}
+
+#footer p {
+  font-size: 12px;
+  letter-spacing: 0.1em;
+  font-weight: 500;
+  margin-top: 0;
+  text-transform: uppercase;
+}
+
+.credits {
+  font-size: 13px;
+}
